@@ -16,7 +16,7 @@ class TestingTESTTASK(unittest.TestCase):
             },
             "type": "object",
             "properties": {
-                "id": {"anyOf": [{"type": "string"}, {"type": "integer"}]},
+                "id": {"anyOf": [{"type": "integer"}]},
                 "title": {"type": "string"},
                 "description": {"type": "string"},
                 "startDate": {"type": "integer"},
